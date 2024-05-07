@@ -1,0 +1,62 @@
+package com.ibm.springboot.demo.service;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.ibm.springboot.demo.model.Employee;
+
+@Service
+public class EmployeeServiceImpl implements EmployeeService {
+
+	private List<Employee> empList = new ArrayList<>();
+
+	
+	public Employee getEmployeeById(Integer employeeId) {
+		System.out.println(employeeId);
+		return new Employee(101, "Sonu", 10.5);
+	}
+
+	
+	public List<Employee> getAllEmployees() {
+		return empList;
+	}
+	
+	 
+
+	
+	 public Employee deleteEmployee1(Integer employeeId) {
+	       
+	        Iterator<Employee> iterator = empList.iterator();
+	        while (iterator.hasNext()) {
+	            Employee emp = iterator.next();
+	            if (emp.getEid().equals(employeeId)) {
+	                iterator.remove();
+	                return new Employee(101, "Sonu", 10.5); 
+	            }
+	        }
+         return null; 
+	    }
+	 
+	 
+	 
+	 public Employee updateEmployee1(Employee employee) {
+	       
+	        return new Employee(104, "Sonu", 10.5);
+	    }
+
+	
+	public Employee updateEmployee(Employee employee) {
+		return null;
+	}
+	
+	
+
+	
+	public Employee deleteEmployee(Integer employeeId) {
+		return null;
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.ibm.springboot.demo.model;
+
+public class Employee {
+
+}

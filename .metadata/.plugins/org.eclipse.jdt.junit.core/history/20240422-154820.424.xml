@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="EmployerControllerTests" project="ibm-springboot-demo" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="com.ibm.springboot.demo.controller.EmployerControllerTests" time="0.356" displayname="EmployerControllerTests" uniqueid="[engine:junit-jupiter]/[class:com.ibm.springboot.demo.controller.EmployerControllerTests]">
+    <testcase name="testEmployeeControllerStatus" classname="com.ibm.springboot.demo.controller.EmployerControllerTests" time="0.328" displayname="testEmployeeControllerStatus()" uniqueid="[engine:junit-jupiter]/[class:com.ibm.springboot.demo.controller.EmployerControllerTests]/[method:testEmployeeControllerStatus()]"/>
+    <testcase name="testEmployeeControllerMediaType" classname="com.ibm.springboot.demo.controller.EmployerControllerTests" time="0.013" displayname="testEmployeeControllerMediaType()" uniqueid="[engine:junit-jupiter]/[class:com.ibm.springboot.demo.controller.EmployerControllerTests]/[method:testEmployeeControllerMediaType()]"/>
+    <testcase name="testEmployeeControllerPrint" classname="com.ibm.springboot.demo.controller.EmployerControllerTests" time="0.011" displayname="testEmployeeControllerPrint()" uniqueid="[engine:junit-jupiter]/[class:com.ibm.springboot.demo.controller.EmployerControllerTests]/[method:testEmployeeControllerPrint()]"/>
+  </testsuite>
+</testrun>

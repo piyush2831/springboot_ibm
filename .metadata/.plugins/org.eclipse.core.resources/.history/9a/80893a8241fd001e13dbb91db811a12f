@@ -1,0 +1,5 @@
+package com.ibm.springboot.demo.exception;
+
+public class DepartmentNotFoundException {
+
+}

@@ -1,0 +1,13 @@
+package com.ibm.springboot.demo.exception;
+
+public class EmployeeNotFoundException extends  RuntimeException{
+
+	public EmployeeNotFoundException(String message) {
+		// TODO Auto-generated constructor stub
+	}
+
+
+	
+	}
+
+}

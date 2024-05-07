@@ -1,0 +1,17 @@
+package com.ibm.demo;
+import com.ibm.demo.model.Employee;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApllicationContext;
+import org.springframework.context.support.AbstractionApplicationContext;
+
+
+
+public class SpringContextDemo {
+	public static void main(String[] args) {
+		Employee emp= new Employee();
+		ApplicationContext context = new ClassPathXmlApplicationContext();
+		
+		System.out.println(emp.hashCode());
+	}
+
+}

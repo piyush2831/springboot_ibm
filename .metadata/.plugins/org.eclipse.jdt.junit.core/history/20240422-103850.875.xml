@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AppTests" project="ibm-springboot-demo" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.ibm.springboot.demo.AppTests" time="1.491" displayname="AppTests" uniqueid="[engine:junit-jupiter]/[class:com.ibm.springboot.demo.AppTests]">
+    <testcase name="testText" classname="com.ibm.springboot.demo.AppTests" time="1.491" displayname="testText()" uniqueid="[engine:junit-jupiter]/[class:com.ibm.springboot.demo.AppTests]/[method:testText()]"/>
+  </testsuite>
+</testrun>

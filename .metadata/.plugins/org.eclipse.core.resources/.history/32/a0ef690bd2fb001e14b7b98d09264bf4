@@ -1,0 +1,27 @@
+package com.ibm.springboot.demo.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.ibm.springboot.demo.model.Employee;
+
+@Service
+public class EmployeeServiceImpl implements EmployeeService {
+	
+	
+	private List<Employee> empList = new ArrayList<>();
+
+	public Employee getEmployeeById(Integer employeeId) {
+		System.out.println(employeeId);
+		return new Employee(101, "Sonu", 10.5);
+	}
+
+	public List<Employee> getAllEmployees() {
+		return null;
+	}
+
+	
+
+}

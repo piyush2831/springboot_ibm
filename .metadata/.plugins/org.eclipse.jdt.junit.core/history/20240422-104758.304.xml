@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AppTests" project="ibm-springboot-demo" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.ibm.springboot.demo.AppTests" time="1.345" displayname="AppTests" uniqueid="[engine:junit-jupiter]/[class:com.ibm.springboot.demo.AppTests]">
+    <testcase name="testTest2" classname="com.ibm.springboot.demo.AppTests" time="1.335" displayname="testTest2()" uniqueid="[engine:junit-jupiter]/[class:com.ibm.springboot.demo.AppTests]/[method:testTest2()]"/>
+    <testcase name="testTest" classname="com.ibm.springboot.demo.AppTests" time="0.009" displayname="testTest()" uniqueid="[engine:junit-jupiter]/[class:com.ibm.springboot.demo.AppTests]/[method:testTest()]"/>
+  </testsuite>
+</testrun>

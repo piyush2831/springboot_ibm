@@ -1,0 +1,22 @@
+package com.ibm.springboot.demo.controller;
+
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+
+
+@Controller
+@Component
+@RestController
+public class Hello {
+	//@RequestMapping
+	@GetMapping("/hi")
+	public String hi() {
+		System.out.println("Hello");
+		return "Hello world";
+	}
+
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AppTests" project="ibm-springboot-demo" tests="3" started="3" failures="2" errors="0" ignored="0">
+  <testsuite name="com.ibm.springboot.demo.AppTests" time="2.005" displayname="AppTests" uniqueid="[engine:junit-jupiter]/[class:com.ibm.springboot.demo.AppTests]">
+    <testcase name="testAllEmps2" classname="com.ibm.springboot.demo.AppTests" time="1.877" displayname="testAllEmps2()" uniqueid="[engine:junit-jupiter]/[class:com.ibm.springboot.demo.AppTests]/[method:testAllEmps2()]">
+      <failure>
+        <expected>14</expected>
+        <actual>15</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;14&gt; but was: &lt;15&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:531)&#13;
+	at com.ibm.springboot.demo.AppTests.testAllEmps2(AppTests.java:81)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="testAllEmps" classname="com.ibm.springboot.demo.AppTests" time="0.021" displayname="testAllEmps()" uniqueid="[engine:junit-jupiter]/[class:com.ibm.springboot.demo.AppTests]/[method:testAllEmps()]">
+      <failure>
+        <expected>14</expected>
+        <actual>25</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;14&gt; but was: &lt;25&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:531)&#13;
+	at com.ibm.springboot.demo.AppTests.testAllEmps(AppTests.java:75)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="testAddEmp" classname="com.ibm.springboot.demo.AppTests" time="0.103" displayname="testAddEmp()" uniqueid="[engine:junit-jupiter]/[class:com.ibm.springboot.demo.AppTests]/[method:testAddEmp()]"/>
+  </testsuite>
+</testrun>
